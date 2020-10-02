@@ -19,7 +19,7 @@ function Checkout() {
         <div>
           <h3>Hello {user?.email}</h3>
           <h2 className="checkout__title">
-            Your shopping basket
+            {basket.length === 0 ? "You currently have no items in your basket" : "Your shopping basket"}
           </h2>
 
           {basket.map(item => (
@@ -37,7 +37,6 @@ function Checkout() {
 
       <div className="checkout__right">
         <Subtotal />
-        <h2>Subtotal will go here</h2>
       </div>
     </div>
 
