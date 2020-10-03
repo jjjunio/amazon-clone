@@ -6,6 +6,10 @@
   max-width: 1500px;
 }
 
+.home__rowContainer {
+  margin-top: -350px;
+}
+
 .home__row {
   display: flex;
   z-index: 1;
@@ -17,9 +21,7 @@
   width: 100%;
   z-index: -1;
   margin-bottom: -150px;
-  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-}
-
-.home__container {
-
+  /* mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
+   mask-image: linear-gradient(to top, transparent 5%, black 60%);
+  
 }

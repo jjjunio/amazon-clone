@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [debug] [2020-10-03T19:14:32.740Z] ----------------------------------------------------------------------
 [debug] [2020-10-03T19:14:32.742Z] Command:       /Users/jason/.nvm/versions/node/v10.16.1/bin/node /Users/jason/.nvm/versions/node/v10.16.1/bin/firebase functions:shell
 [debug] [2020-10-03T19:14:32.742Z] CLI Version:   8.10.0
@@ -38,3 +39,38 @@
 [info] i  functions: Loaded functions: api 
 [warn] ⚠  functions: The following emulators are not running, calls to these services will affect production: firestore, database, pubsub 
 [debug] [2020-10-03T19:14:33.651Z] DEBUG: [worker-~diagnostic~-094c30aa-ec55-4d87-af84-4030a65335cc]: IDLE
+=======
+[debug] [2020-10-02T14:19:36.681Z] ----------------------------------------------------------------------
+[debug] [2020-10-02T14:19:36.685Z] Command:       /home/solokrew/.nvm/versions/node/v14.9.0/bin/node /home/solokrew/.nvm/versions/node/v14.9.0/bin/firebase functions:shell
+[debug] [2020-10-02T14:19:36.685Z] CLI Version:   8.10.0
+[debug] [2020-10-02T14:19:36.685Z] Platform:      linux
+[debug] [2020-10-02T14:19:36.686Z] Node Version:  v14.9.0
+[debug] [2020-10-02T14:19:36.688Z] Time:          Fri Oct 02 2020 10:19:36 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-10-02T14:19:36.689Z] ----------------------------------------------------------------------
+[debug] [2020-10-02T14:19:36.689Z] 
+[debug] [2020-10-02T14:19:36.744Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-02T14:19:36.745Z] > authorizing via signed-in user
+[debug] [2020-10-02T14:19:36.746Z] [iam] checking project clone-a6f70 for permissions ["firebase.projects.get"]
+[debug] [2020-10-02T14:19:36.749Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-10-02T14:19:36.750Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-10-02T14:19:36.903Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 02 Oct 2020 14:19:41 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-10-02T14:19:36.914Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/clone-a6f70:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-10-02T14:19:37.192Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 02 Oct 2020 14:19:41 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=188","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[warn] ⚠  Your requested "node" version "10" doesn't match your global version "14" {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"10\" doesn't match your global version \"14\""}}
+[debug] [2020-10-02T14:19:37.248Z] defaultcredentials: writing to file /home/solokrew/.config/firebase/jjjunio_gmail_com_application_default_credentials.json
+[debug] [2020-10-02T14:19:37.250Z] DEBUG: Setting GAC to /home/solokrew/.config/firebase/jjjunio_gmail_com_application_default_credentials.json
+[debug] [2020-10-02T14:19:37.266Z] [functions] Watching "/mnt/c/Users/Jason/Programming/react_projects/amazon-clone/functions" for Cloud Functions...
+[debug] [2020-10-02T14:19:37.303Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-10-02T14:19:37.303Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-10-02T14:19:37.303Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-10-02T14:19:37.304Z] DEBUG: [worker-~diagnostic~-5808df7f-2475-4be5-bc3c-b0cd51be0c2e]: Assigning socketPath: /tmp/fire_emu_1163.sock
+[debug] [2020-10-02T14:19:37.304Z] DEBUG: [worker-~diagnostic~-5808df7f-2475-4be5-bc3c-b0cd51be0c2e]: BUSY
+[debug] [2020-10-02T14:19:37.772Z] DEBUG: [runtime-status] [1163] Functions runtime initialized. {"cwd":"/mnt/c/Users/Jason/Programming/react_projects/amazon-clone/functions","node_version":"14.9.0"}
+[debug] [2020-10-02T14:19:37.777Z] DEBUG: [runtime-status] [1163] Disabled runtime features: undefined
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory. {"metadata":{"emulator":{"name":"functions"},"message":"The Cloud Functions emulator requires the module \"firebase-admin\" to be installed. This package is in your package.json, but it's not available. You probably need to run \"npm install\" in your functions directory."}}
+[debug] [2020-10-02T14:19:37.779Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-10-02T14:19:37.791Z] DEBUG: [worker-~diagnostic~-5808df7f-2475-4be5-bc3c-b0cd51be0c2e]: exited
+[debug] [2020-10-02T14:19:37.791Z] DEBUG: [worker-~diagnostic~-5808df7f-2475-4be5-bc3c-b0cd51be0c2e]: FINISHED
+>>>>>>> 43d7f44b7cb1e1cb6e11db48c699ebff8cdb249c
