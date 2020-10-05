@@ -17,13 +17,12 @@ const promise = loadStripe(
 );
 
 function App() {
-  const [{}, dispatch] = useStateValue();
+  const [{ }, dispatch] = useStateValue();
 
   useEffect(() => {
     // run once when app component loads
     //listener
     auth.onAuthStateChanged((authUser) => {
-      console.log("USER IS >>>>", authUser);
 
       if (authUser) {
         // the user just logged in / was logged in
